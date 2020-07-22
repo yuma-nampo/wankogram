@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bulma";
+
+.notification:not(:last-child){
+	margin-bottom: 0;
+}
+
+.main-image{
+    position: relative;
+    height: 940px;
+    width: 1500px;
+    margin: auto;
+    background-image: url(1435354_m.jpg);
+    background-repeat: none;
+    background-size: contain;
+}
+
+.main-image h1{
+    position: absolute;
+    width: 1500px;
+    top: 15%;
+    font-size: 80px;
+}
+
+.main-image p{
+    top: 30%;
+    position: absolute;
+    font-size: 40px;
+    width: 1500px;
+}
+
+.container2{
+  margin-top: 30px;
+}
+
+.profile_image{
+  border-radius: 50%;
+}
+
+.show-button{
+  padding-left: 580px;
+}
+
+.submit-button{
+  padding-top: 20px;
+}
+
