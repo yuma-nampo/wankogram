@@ -23,16 +23,21 @@
 .main-image{
     position: relative;
     height: 940px;
-    width: 1500px;
+    width: 100%;
     margin: auto;
     background-image: url(1435354_m.jpg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-size: cover;
+    
 }
 
 .main-image h1{
     position: absolute;
-    width: 1500px;
+    width: 100%;
     top: 15%;
     font-size: 80px;
 }
@@ -41,7 +46,7 @@
     top: 30%;
     position: absolute;
     font-size: 40px;
-    width: 1500px;
+    width: 100%;
 }
 
 .container2{
@@ -59,4 +64,3 @@
 .submit-button{
   padding-top: 20px;
 }
-
